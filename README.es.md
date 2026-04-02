@@ -48,15 +48,32 @@ No necesitas ser técnico. No necesitas instalar nada. Abre [claude.ai](https://
 
 > **¿No sabes qué es un chatbot de IA?** Es como un asistente personal al que puedes hacer preguntas en lenguaje natural. Los más conocidos: [Claude](https://claude.ai) (de Anthropic — **recomendado**), [ChatGPT](https://chat.openai.com) (de OpenAI), [Gemini](https://gemini.google.com) (de Google).
 
-**Ejemplos:**
+**Ejemplos (copia y pega en Claude):**
 
-| Tu necesidad | Lo que escribes |
-|-------------|-----------------|
-| Crear un chatbot para clientes | Quiero crear un chatbot de IA para soporte al cliente. ¿Cuáles son las mejores opciones open-source? Lee https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
-| Elegir una base de datos vectorial | Estoy montando un pipeline RAG. Compara las bases de datos vectoriales. Lee https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
-| Automatizar el procesamiento de facturas | ¿Qué herramientas de IA pueden automatizar la extracción de facturas? Lee https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
-| Encontrar un motor de voz | Necesito un motor text-to-speech open-source. ¿Qué recomiendas? Lee https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
-| Automatizar el cold mailing | ¿Qué herramientas open-source pueden automatizar el cold emailing con IA? Lee https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
+Crear un chatbot para clientes:
+```
+Quiero crear un chatbot de IA para soporte al cliente. ¿Cuáles son las mejores opciones open-source? Lee https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md
+```
+
+Elegir una base de datos vectorial:
+```
+Estoy montando un pipeline RAG. Compara las bases de datos vectoriales. Lee https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md
+```
+
+Automatizar el procesamiento de facturas:
+```
+¿Qué herramientas de IA pueden automatizar la extracción de facturas? Lee https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md
+```
+
+Encontrar un motor de voz:
+```
+Necesito un motor text-to-speech open-source. ¿Qué recomiendas? Lee https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md
+```
+
+Automatizar el cold mailing:
+```
+¿Qué herramientas open-source pueden automatizar el cold emailing con IA? Lee https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md
+```
 
 **Eso es todo.** La IA lee las fichas estructuradas, compara herramientas, verifica licencias, y te da una recomendación — con puntuaciones de madurez, alternativas, y cómo empezar.
 

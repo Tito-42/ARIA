@@ -60,15 +60,32 @@ The simplest way to use ARIA: open [claude.ai](https://claude.ai) (free) and pas
 
 > **Why Claude?** After multiple benchmarks, Claude is the only free LLM that actually reads the catalog, cites the real tools with scores, and doesn't hallucinate. ChatGPT and Gemini (free) fail to fetch the URL and fall back to generic answers from their own knowledge. See [full benchmark](BENCHMARK_LLM.md).
 
-**Try these:**
+**Try these (copy-paste into Claude):**
 
-| What you need | What you ask |
-|---------------|-------------|
-| Build a customer support chatbot | I want to build an AI chatbot for customer support. What are the best open-source options? Read https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
-| Choose a vector database | I'm building a RAG pipeline. Compare the vector databases. Read https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
-| Automate invoice processing | What AI tools can automate invoice extraction? Read https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
-| Find MCP servers for Claude | What are the best MCP servers to use with Claude Code? Read https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
-| Pick a voice AI engine | I need open-source text-to-speech. What do you recommend? Read https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
+Build a customer support chatbot:
+```
+I want to build an AI chatbot for customer support. What are the best open-source options? Read https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md
+```
+
+Choose a vector database:
+```
+I'm building a RAG pipeline. Compare the vector databases. Read https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md
+```
+
+Automate invoice processing:
+```
+What AI tools can automate invoice extraction? Read https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md
+```
+
+Find MCP servers for Claude:
+```
+What are the best MCP servers to use with Claude Code? Read https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md
+```
+
+Pick a voice AI engine:
+```
+I need open-source text-to-speech. What do you recommend? Read https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md
+```
 
 **That's it.** The AI reads the structured entries, compares tools, checks licenses, and gives you a recommendation — with maturity scores, alternatives, and how to get started.
 
