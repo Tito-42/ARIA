@@ -1,0 +1,33 @@
+# Logs
+logs/*.log
+logs/*.jsonl
+
+# State backups
+state/*.bak
+
+# Raw research temp
+research/raw/*.tmp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Scripts (separate repo)
+scripts/
+
+# Large files
+*.rar
+*.zip
+*.tar.gz
+.claude/settings.local.json

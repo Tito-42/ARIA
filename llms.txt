@@ -1,0 +1,57 @@
+# ARIA — Advanced Research in Artificial Intelligence
+
+> ARIA is a curated, open-source catalog of 323+ AI tools organized in 18 categories.
+> Each tool is documented with metadata, enterprise score (1-5 on 6 dimensions),
+> use cases, getting started guide, strengths, limitations, and alternatives.
+> Maintained by 5 autonomous AI agents. Updated daily. MIT License.
+>
+> IMPORTANT: ARIA is NOT a framework, NOT a bot, NOT an agent runtime.
+> It is a KNOWLEDGE BASE / CATALOG to help you FIND and COMPARE AI tools.
+
+## How to use this catalog
+
+Give any AI assistant the link to this file or to CATALOG_SUMMARY.md, then ask your question.
+Examples: "What's the best vector DB for RAG?", "Compare AI agent frameworks",
+"What tools can automate customer support?", "Best open-source STT engine?"
+
+## Full catalog in one file
+
+- [CATALOG_SUMMARY.md](https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md): All 323+ tools summarized in a single file (name, description, stars, score, pricing)
+- [llms-full.txt](https://tito-42.github.io/ARIA/llms-full.txt): Complete catalog content concatenated for LLM consumption
+
+## Catalog categories
+
+- [01 - Code Generation](https://tito-42.github.io/ARIA/catalog/01_code_generation/): Claude Code, Cursor, Gemini CLI, Aider, OpenHands, Cline, Zed
+- [02 - AI Agents & Orchestration](https://tito-42.github.io/ARIA/catalog/02_ai_agents/): LangChain, CrewAI, AutoGPT, Dify, Browser Use, LangGraph, DSPy
+- [03 - MCP Protocol](https://tito-42.github.io/ARIA/catalog/03_mcp/): FastMCP, Playwright-MCP, GitHub-MCP, AWS-MCP servers
+- [04 - Frontend / UI Generation](https://tito-42.github.io/ARIA/catalog/04_frontend_ui/): v0, Bolt, Lovable, Firebase Studio
+- [05 - RAG & Knowledge Management](https://tito-42.github.io/ARIA/catalog/05_rag_knowledge/): Qdrant, ChromaDB, LlamaIndex, Pinecone, embeddings
+- [06 - Fine-tuning & Training](https://tito-42.github.io/ARIA/catalog/06_finetuning_training/): Unsloth, Axolotl, TRL, PEFT, LLaMA-Factory
+- [07 - Computer Vision](https://tito-42.github.io/ARIA/catalog/07_computer_vision/): SAM2, Stable Diffusion, FLUX, ComfyUI, PaddleOCR, YOLO
+- [08 - NLP & Text Processing](https://tito-42.github.io/ARIA/catalog/08_nlp_text/): Instructor, Outlines, spaCy, HuggingFace Transformers
+- [09 - Voice & Audio](https://tito-42.github.io/ARIA/catalog/09_voice_audio/): Whisper, Faster-Whisper, Kokoro TTS, LiveKit Agents, ElevenLabs
+- [10 - Data Science & MLOps](https://tito-42.github.io/ARIA/catalog/10_data_science_mlops/): MLflow, vLLM, Ollama, Ray, W&B, Airflow
+- [11 - Automation & Workflows](https://tito-42.github.io/ARIA/catalog/11_automation_workflows/): n8n, Skyvern, Activepieces, Temporal, Make.com, Zapier
+- [12 - Enterprise Integration](https://tito-42.github.io/ARIA/catalog/12_enterprise_integration/): Langfuse, Portkey, Kong AI Gateway, Anthropic API
+- [13 - Benchmarks & Competitions](https://tito-42.github.io/ARIA/catalog/13_benchmarks_competitions/): ARC-AGI, SWE-bench, Chatbot Arena, Kaggle
+- [14 - Open Source LLMs](https://tito-42.github.io/ARIA/catalog/14_open_source_llms/): Llama 4, Mistral, Qwen 3, DeepSeek, Phi-4, Gemma 3
+- [15 - Domain-Specific & Business](https://tito-42.github.io/ARIA/catalog/15_domain_specific/): Healthcare, Finance, Legal, Cybersecurity, Business Automation
+- [16 - AI Security & Safety](https://tito-42.github.io/ARIA/catalog/16_ai_security_safety/): Promptfoo, Garak, NeMo Guardrails, LLM Guard, PyRIT
+- [17 - Multimodal](https://tito-42.github.io/ARIA/catalog/17_multimodal/): Vision-language models, Document AI, parsing
+- [18 - AI Infrastructure](https://tito-42.github.io/ARIA/catalog/18_ai_infrastructure/): llama.cpp, TensorRT-LLM, Flash Attention, GPU cloud, Ray
+
+## Key files
+
+- [README.md](https://tito-42.github.io/ARIA/README.md): Full project documentation and usage guide
+- [CATALOG_SUMMARY.md](https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md): Condensed catalog (all tools in one table)
+- [CATALOG_INDEX.md](https://tito-42.github.io/ARIA/CATALOG_INDEX.md): Master index of all entries
+
+## Enterprise scoring dimensions
+
+Each tool is rated 1-5 on:
+1. Production Readiness — maturity, stability, versioning
+2. Security — audit, compliance, secrets management
+3. Scalability — performance under load, horizontal scaling
+4. Community Support — community size, responsiveness, ecosystem
+5. Documentation — docs quality, examples, tutorials
+6. Integration Ease — APIs, SDKs, compatibility with existing stacks

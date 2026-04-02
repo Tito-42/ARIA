@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARIA Tool Entry",
+  "description": "Schema for validating tool catalog entries",
+  "type": "object",
+  "required": ["name", "category", "url", "description", "status", "last_verified"],
+  "properties": {
+    "name": { "type": "string", "minLength": 1 },
+    "category": { "type": "string", "pattern": "^\\d{2}_" },
+    "url": { "type": "string", "format": "uri" },
+    "github": { "type": ["string", "null"], "format": "uri" },
+    "github_stars": { "type": ["integer", "null"], "minimum": 0 },
+    "license": { "type": "string" },
+    "pricing": { "type": "string", "enum": ["free", "freemium", "paid", "enterprise"] },
+    "description": { "type": "string", "minLength": 20 },
+    "status": { "type": "string", "enum": ["active", "maintained", "deprecated", "archived"] },
+    "maturity": { "type": "string", "enum": ["experimental", "beta", "production", "enterprise"] },
+    "last_verified": { "type": "string", "format": "date" },
+    "enterprise_scores": {
+      "type": "object",
+      "properties": {
+        "production_readiness": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "security": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "scalability": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "support_community": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "documentation": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "integration_ease": { "type": "integer", "minimum": 1, "maximum": 5 }
+      }
+    },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "use_cases": { "type": "array", "items": { "type": "string" } }
+  }
+}

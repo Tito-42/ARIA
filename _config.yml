@@ -1,0 +1,23 @@
+# GitHub Pages configuration for ARIA
+title: "ARIA — Catalog of 323+ AI Tools"
+description: "Curated, open-source knowledge base of AI tools. Structured, scored on 6 enterprise criteria, maintained by autonomous AI agents."
+url: "https://tito-42.github.io"
+baseurl: "/ARIA"
+
+# Include these files (not ignored by Jekyll by default)
+include:
+  - llms.txt
+  - llms-full.txt
+  - robots.txt
+  - CATALOG_SUMMARY.md
+  - "*.md"
+
+# Exclude build/dev files
+exclude:
+  - scripts/
+  - state/
+  - research/
+  - logs/
+  - .claude/
+  - "*.py"
+  - node_modules/

@@ -1,0 +1,231 @@
+{
+  "categories": {
+    "01_code_generation": {
+      "status": "initial_complete",
+      "entries_count": 11,
+      "last_researched": "2026-04-01",
+      "sources_checked": ["github_trending", "github_repos", "product_pages", "awesome_lists"]
+    },
+    "02_ai_agents": {
+      "status": "initial_complete",
+      "entries_count": 35,
+      "last_researched": "2026-04-01",
+      "sources_checked": ["github_trending", "github_repos", "awesome_lists", "web_search", "product_pages"]
+    },
+    "03_mcp": {
+      "status": "in_progress",
+      "entries_count": 16,
+      "last_researched": "2026-04-02",
+      "sources_checked": ["github_repos", "modelcontextprotocol_org", "awesome_mcp_servers", "punkpeye_awesome_mcp", "wong2_awesome_mcp"],
+      "catalog_entries": {
+        "frameworks": ["fastmcp", "mcp-python-sdk", "mcp-typescript-sdk", "mcp-inspector", "mcp-proxy", "supergateway", "mcpo"],
+        "servers": ["playwright-mcp", "github-mcp", "aws-mcp", "cloudflare-mcp", "atlassian-mcp", "firecrawl-mcp", "exa-mcp", "grafana-mcp"],
+        "specification": ["mcp-protocol-overview"],
+        "registries": ["registry"]
+      },
+      "findings_file": "research/raw/03_mcp_findings.md",
+      "pending_catalog_entries": ["supabase-mcp", "browserbase-mcp", "notion-mcp", "stripe-mcp", "terraform-mcp", "kubernetes-mcp", "mongodb-mcp", "redis-mcp", "qdrant-mcp", "agentgateway"]
+    },
+    "04_frontend_ui": {
+      "status": "in_progress",
+      "entries_count": 9,
+      "last_researched": "2026-04-01",
+      "sources_checked": ["github_repos", "web_search"]
+    },
+    "05_rag_knowledge": {
+      "status": "in_progress",
+      "entries_count": 13,
+      "last_researched": "2026-04-01",
+      "sources_checked": ["github_repos", "web_search"]
+    },
+    "06_finetuning_training": {
+      "status": "initial_complete",
+      "entries_count": 18,
+      "last_researched": "2026-04-01",
+      "sources_checked": ["github_repos", "huggingface", "web_search", "awesome_lists"]
+    },
+    "07_computer_vision": {
+      "status": "initial_complete",
+      "entries_count": 24,
+      "last_researched": "2026-04-02",
+      "sources_checked": ["github_repos", "huggingface", "web_search", "awesome_lists"]
+    },
+    "08_nlp_text": {
+      "status": "initial_complete",
+      "entries_count": 20,
+      "last_researched": "2026-04-02",
+      "sources_checked": ["github_repos", "huggingface", "web_search", "awesome_lists"]
+    },
+    "09_voice_audio": {
+      "status": "initial_complete",
+      "entries_count": 22,
+      "last_researched": "2026-04-02",
+      "sources_checked": ["github_repos", "huggingface", "web_search"]
+    },
+    "10_data_science_mlops": {
+      "status": "initial_complete",
+      "entries_count": 24,
+      "last_researched": "2026-04-02",
+      "sources_checked": ["github_repos", "web_search", "awesome_lists"]
+    },
+    "11_automation_workflows": {
+      "status": "in_progress",
+      "entries_count": 8,
+      "last_researched": "2026-04-01",
+      "sources_checked": ["github_repos", "web_search"]
+    },
+    "12_enterprise_integration": {
+      "status": "initial_complete",
+      "entries_count": 21,
+      "last_researched": "2026-04-02",
+      "sources_checked": ["anthropic_docs", "github_repos", "product_pages"],
+      "catalog_entries": {
+        "platforms": ["anthropic-api"],
+        "architecture": ["ai-gateway-patterns"],
+        "cost-optimization": ["model-routing", "gptcache", "tokencost"],
+        "observability": ["langfuse", "openllmetry", "phoenix", "helicone", "opik", "wandb-weave", "langtrace", "openlit"],
+        "gateways": ["portkey", "kong-ai-gateway", "cloudflare-ai-gateway"],
+        "security": ["microsoft-presidio", "guardrails-ai", "infisical"],
+        "evaluation": ["ragas"]
+      },
+      "skipped_duplicates": {
+        "reason": "already cataloged in other categories",
+        "tools": {
+          "02_ai_agents": ["litellm", "agentops"],
+          "10_data_science_mlops": ["mlflow", "bentoml", "zenml", "evidently"],
+          "16_ai_security_safety": ["promptfoo", "deepeval", "nemo-guardrails", "langkit"]
+        }
+      },
+      "findings_file": "research/raw/12_enterprise_integration_findings.md",
+      "gaps_identified": [
+        "semantic_router_aurelio_ai",
+        "redis_based_llm_caching",
+        "enterprise_rate_limiting",
+        "llm_audit_logging_compliance",
+        "multi_tenant_llm_patterns",
+        "humanloop_to_verify"
+      ]
+    },
+    "13_benchmarks_competitions": {
+      "status": "initial_complete",
+      "entries_count": 7,
+      "last_researched": "2026-04-01",
+      "sources_checked": ["arcprize_org", "kaggle", "github_repos", "lmarena", "swebench", "openai_evals"]
+    },
+    "14_open_source_llms": {
+      "status": "in_progress",
+      "entries_count": 13,
+      "last_researched": "2026-04-01",
+      "sources_checked": ["github_repos", "web_search"]
+    },
+    "15_domain_specific": {
+      "status": "initial_complete",
+      "entries_count": 27,
+      "findings_count": 19,
+      "last_researched": "2026-04-02",
+      "last_cataloged": "2026-04-02",
+      "sources_checked": [
+        "github_topics_medical_imaging",
+        "github_topics_medical_nlp",
+        "github_topics_financial_ai",
+        "github_topics_legal_ai",
+        "github_topics_educational_ai",
+        "github_topics_drug_discovery",
+        "github_topics_cybersecurity_ai",
+        "github_search_medical_llm",
+        "github_search_legal_nlp",
+        "github_search_ai_tutor",
+        "github_search_fraud_detection",
+        "github_search_plant_disease",
+        "github_org_ai4finance_foundation",
+        "huggingface_medical_models",
+        "huggingface_legal_models",
+        "github_topics_business_automation",
+        "github_topics_document_processing",
+        "github_topics_customer_support",
+        "github_topics_workflow_automation"
+      ],
+      "catalog_entries": {
+        "healthcare": ["monai", "medsam", "medicalgpt", "deepchem", "chemprop", "biogpt"],
+        "finance": ["fingpt", "finrl", "finrobot"],
+        "legal": ["legalbench", "cuad"],
+        "education": ["mr-ranedeer", "tutor-gpt", "chattutor"],
+        "cybersecurity": ["soc-ai", "strix", "cai", "hexstrike-ai", "ciso-assistant"],
+        "business-automation": ["unstract", "firecrawl", "chatwoot", "wrenai", "mindsdb", "flowise", "gpt-researcher", "docetl", "pr-agent", "robusta"]
+      },
+      "domains_covered": [
+        "healthcare_medical_imaging",
+        "healthcare_medical_llm",
+        "healthcare_drug_discovery",
+        "finance_llm",
+        "finance_trading",
+        "finance_analysis_agents",
+        "legal_benchmarks",
+        "legal_nlp_datasets",
+        "education_ai_tutors",
+        "cybersecurity_pentest",
+        "cybersecurity_grc",
+        "cybersecurity_honeypot",
+        "business_automation_document_processing",
+        "business_automation_customer_support",
+        "business_automation_analytics_bi",
+        "business_automation_code_review",
+        "business_automation_devops",
+        "business_automation_research",
+        "business_automation_web_scraping"
+      ],
+      "gaps_identified": [
+        "hr_recruitment_no_mature_oss",
+        "real_estate_no_mature_oss",
+        "finance_fraud_detection_no_mature_oss",
+        "medical_closed_models_medpalm_bloomberggpt",
+        "agriculture_only_academic_projects",
+        "meditron_not_cataloged_static_model_2023",
+        "biomistrall_not_cataloged_53_stars_below_threshold"
+      ],
+      "skipped_entries": {
+        "reason": "below 500 stars threshold or already in other categories",
+        "tools": {
+          "below_threshold": ["BioMistral (53 stars)", "LexGLUE (246 stars)", "Awesome-Legal-NLP (313 stars)", "Plant-Disease-Detection (208 stars)"],
+          "static_research_model": ["Meditron (no updates since 2023)"],
+          "already_in_other_categories": ["n8n (11_automation)", "skyvern (11_automation)", "browser-use (02_ai_agents)", "activepieces (11_automation)"]
+        }
+      },
+      "pending_catalog_conversion": false,
+      "findings_file": "research/raw/15_domain_specific_findings.md",
+      "business_automation_findings_file": "research/raw/15_business_automation_findings.md"
+    },
+    "16_ai_security_safety": {
+      "status": "initial_complete",
+      "entries_count": 15,
+      "last_researched": "2026-04-02",
+      "sources_checked": ["github_repos", "owasp", "web_search", "awesome_lists"]
+    },
+    "17_multimodal": {
+      "status": "initial_complete",
+      "entries_count": 15,
+      "last_researched": "2026-04-02",
+      "sources_checked": ["github_trending", "github_repos", "huggingface", "web_search", "awesome_lists"],
+      "catalog_entries": {
+        "vision-language": ["llava", "qwen-vl", "janus-pro", "internvl", "deepseek-vl2", "smolvlm"],
+        "document-ai": ["docling", "mineru", "unstructured", "pdf-extract-kit", "table-transformer", "layoutlmv3"],
+        "video": ["video-llava", "video-llama", "videochat2"],
+        "omnimodal": ["imagebind", "next-gpt"],
+        "retrieval": ["colpali"]
+      },
+      "existing_in_cat07_skipped": ["florence-2", "marker", "paddleocr", "grounding-dino"],
+      "findings_file": "research/raw/17_multimodal_findings.md",
+      "notes": "2026-04-02: 16 new entries created (document-parsing-guide pre-existed). Florence-2, Marker, PaddleOCR, Grounding DINO already in cat 07 - not duplicated."
+    },
+    "18_ai_infrastructure": {
+      "status": "initial_complete",
+      "entries_count": 19,
+      "last_researched": "2026-04-02",
+      "sources_checked": ["github_repos", "web_search", "awesome_lists"]
+    }
+  },
+  "total_entries": 323,
+  "last_full_update": "2026-04-02",
+  "next_review_due": "2026-05-01",
+  "notes": "2026-04-02: Catalogage 15_domain_specific effectue. 26 nouvelles fiches creees depuis research/raw/15_domain_specific_findings.md et research/raw/15_business_automation_findings.md. healthcare (6): monai, medsam, medicalgpt, deepchem, chemprop, biogpt. finance (3): fingpt, finrl, finrobot. legal (2): legalbench, cuad. education (3): mr-ranedeer, tutor-gpt, chattutor. cybersecurity (4 nouvelles + soc-ai pre-existant): strix, cai, hexstrike-ai, ciso-assistant. business-automation (10): unstract, firecrawl, chatwoot, wrenai, mindsdb, flowise, gpt-researcher, docetl, pr-agent, robusta. Doublons evites: n8n+skyvern+activepieces (cat 11), browser-use (cat 02). Entrees ignorees: BioMistral (53 stars), LexGLUE (246 stars), Awesome-Legal-NLP (313 stars), PlantDisease (208 stars) - en dessous du seuil 500 stars. | 2026-04-02: Catalogage 17_multimodal effectue. 16 nouvelles fiches creees depuis research/raw/17_multimodal_findings.md. vision-language (6): llava, qwen-vl, janus-pro, internvl, deepseek-vl2, smolvlm. document-ai (6): docling, mineru, unstructured, pdf-extract-kit, table-transformer, layoutlmv3. video (3): video-llava, video-llama, videochat2. omnimodal (2): imagebind, next-gpt. retrieval (1): colpali. Doublons evites (4 deja en cat 07): florence-2, marker, paddleocr, grounding-dino. | 2026-04-02: Recherche 15_domain_specific completee. 19 findings documentes couvrant healthcare (8), finance (3), legal (3), education (3), cybersecurity (5), agriculture (1) + ressources transversales. Gaps identifies: RH/recrutement, immobilier, fraud detection - pas d'OSS mature. Prochaine etape: conversion en fiches catalogue par le cataloger. | 2026-04-02: Catalogage 03_mcp effectue. 14 nouvelles fiches creees depuis research/raw/03_mcp_findings.md : 7 frameworks (fastmcp, mcp-python-sdk, mcp-typescript-sdk, mcp-inspector, mcp-proxy, supergateway, mcpo) + 8 serveurs (playwright-mcp 30.1k stars, github-mcp 28.5k, aws-mcp 8.7k, cloudflare-mcp 3.6k, atlassian-mcp 4.8k, firecrawl-mcp 5.9k, exa-mcp 4.1k, grafana-mcp 2.7k). Entrees pendantes: supabase-mcp, browserbase-mcp, notion-mcp, stripe-mcp, terraform-mcp, kubernetes-mcp, mongodb-mcp, redis-mcp, qdrant-mcp, agentgateway. | 2026-04-02: Catalogage 12_enterprise_integration effectue. 18 nouvelles fiches creees depuis research/raw/12_enterprise_integration_findings.md. Observability (8): langfuse, openllmetry, phoenix, helicone, opik, wandb-weave, langtrace, openlit. Gateways (3): portkey, kong-ai-gateway, cloudflare-ai-gateway. Cost-optimization (2): gptcache, tokencost. Security (3): microsoft-presidio, guardrails-ai, infisical. Evaluation (1): ragas. Doublons evites (10): litellm+agentops (cat 02), mlflow+bentoml+zenml+evidently (cat 10), promptfoo+deepeval+nemo-guardrails+langkit (cat 16)."
+}

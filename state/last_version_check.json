@@ -1,0 +1,241 @@
+{
+  "date": "2026-04-02T07:41:12.708943+00:00",
+  "checked": 18,
+  "changed_count": 18,
+  "changed": [
+    {
+      "entry": "huggingface/alignment-handbook",
+      "file": "catalog\\06_finetuning_training\\alignment-handbook.md",
+      "name": "alignment-handbook",
+      "changes": [
+        "version: (new) v0.3.0"
+      ],
+      "github_stars": 5544,
+      "catalog_stars": 5500,
+      "latest_version": "v0.3.0",
+      "catalog_version": "n/a"
+    },
+    {
+      "entry": "argilla-io/argilla",
+      "file": "catalog\\06_finetuning_training\\argilla.md",
+      "name": "argilla",
+      "changes": [
+        "version: (new) v2.8.0",
+        "active: pushed 2d ago"
+      ],
+      "github_stars": 4913,
+      "catalog_stars": 4900,
+      "latest_version": "v2.8.0",
+      "catalog_version": "n/a"
+    },
+    {
+      "entry": "axolotl-ai-cloud/axolotl",
+      "file": "catalog\\06_finetuning_training\\axolotl.md",
+      "name": "axolotl",
+      "changes": [
+        "version: (new) v0.15.0",
+        "active: pushed 0d ago"
+      ],
+      "github_stars": 11557,
+      "catalog_stars": 11600,
+      "latest_version": "v0.15.0",
+      "catalog_version": "n/a"
+    },
+    {
+      "entry": "microsoft/DeepSpeed",
+      "file": "catalog\\06_finetuning_training\\deepspeed.md",
+      "name": "deepspeed",
+      "changes": [
+        "version: (new) v0.18.9",
+        "active: pushed 0d ago"
+      ],
+      "github_stars": 41959,
+      "catalog_stars": 42000,
+      "latest_version": "v0.18.9",
+      "catalog_version": "n/a"
+    },
+    {
+      "entry": "HumanSignal/label-studio",
+      "file": "catalog\\06_finetuning_training\\label-studio.md",
+      "name": "label-studio",
+      "changes": [
+        "version: (new) 1.23.0",
+        "active: pushed 0d ago"
+      ],
+      "github_stars": 26903,
+      "catalog_stars": 26900,
+      "latest_version": "1.23.0",
+      "catalog_version": "n/a"
+    },
+    {
+      "entry": "Lightning-AI/litgpt",
+      "file": "catalog\\06_finetuning_training\\litgpt.md",
+      "name": "litgpt",
+      "changes": [
+        "version: (new) v0.5.12",
+        "active: pushed 0d ago"
+      ],
+      "github_stars": 13273,
+      "catalog_stars": 13300,
+      "latest_version": "v0.5.12",
+      "catalog_version": "n/a"
+    },
+    {
+      "entry": "hiyouga/LLaMA-Factory",
+      "file": "catalog\\06_finetuning_training\\llama-factory.md",
+      "name": "llama-factory",
+      "changes": [
+        "version: (new) v0.9.4",
+        "active: pushed 0d ago"
+      ],
+      "github_stars": 69369,
+      "catalog_stars": 69300,
+      "latest_version": "v0.9.4",
+      "catalog_version": "n/a"
+    },
+    {
+      "entry": "EleutherAI/lm-evaluation-harness",
+      "file": "catalog\\06_finetuning_training\\lm-evaluation-harness.md",
+      "name": "lm-evaluation-harness",
+      "changes": [
+        "version: (new) v0.4.11",
+        "active: pushed 0d ago"
+      ],
+      "github_stars": 11972,
+      "catalog_stars": 12000,
+      "latest_version": "v0.4.11",
+      "catalog_version": "n/a"
+    },
+    {
+      "entry": "ludwig-ai/ludwig",
+      "file": "catalog\\06_finetuning_training\\ludwig.md",
+      "name": "ludwig",
+      "changes": [
+        "version: (new) v0.11.4",
+        "active: pushed 0d ago"
+      ],
+      "github_stars": 11662,
+      "catalog_stars": 11700,
+      "latest_version": "v0.11.4",
+      "catalog_version": "n/a"
+    },
+    {
+      "entry": "NVIDIA/Megatron-LM",
+      "file": "catalog\\06_finetuning_training\\megatron-lm.md",
+      "name": "megatron-lm",
+      "changes": [
+        "version: (new) core_v0.16.1",
+        "active: pushed 0d ago"
+      ],
+      "github_stars": 15883,
+      "catalog_stars": 15900,
+      "latest_version": "core_v0.16.1",
+      "catalog_version": "n/a"
+    },
+    {
+      "entry": "arcee-ai/mergekit",
+      "file": "catalog\\06_finetuning_training\\mergekit.md",
+      "name": "mergekit",
+      "changes": [
+        "version: (new) v0.1.4"
+      ],
+      "github_stars": 6934,
+      "catalog_stars": 6900,
+      "latest_version": "v0.1.4",
+      "catalog_version": "n/a"
+    },
+    {
+      "entry": "NVIDIA/NeMo",
+      "file": "catalog\\06_finetuning_training\\nvidia-nemo.md",
+      "name": "nvidia-nemo",
+      "changes": [
+        "version: (new) v2.7.2",
+        "active: pushed 0d ago"
+      ],
+      "github_stars": 17025,
+      "catalog_stars": 17000,
+      "latest_version": "v2.7.2",
+      "catalog_version": "n/a"
+    },
+    {
+      "entry": "OpenRLHF/OpenRLHF",
+      "file": "catalog\\06_finetuning_training\\openrlhf.md",
+      "name": "openrlhf",
+      "changes": [
+        "version: (new) v0.9.9",
+        "active: pushed 3d ago"
+      ],
+      "github_stars": 9295,
+      "catalog_stars": 9300,
+      "latest_version": "v0.9.9",
+      "catalog_version": "n/a"
+    },
+    {
+      "entry": "huggingface/peft",
+      "file": "catalog\\06_finetuning_training\\peft.md",
+      "name": "peft",
+      "changes": [
+        "version: 0.18.1 → v0.18.1",
+        "active: pushed 0d ago"
+      ],
+      "github_stars": 20875,
+      "catalog_stars": 20900,
+      "latest_version": "v0.18.1",
+      "catalog_version": "0.18.1"
+    },
+    {
+      "entry": "pytorch/torchtune",
+      "file": "catalog\\06_finetuning_training\\torchtune.md",
+      "name": "torchtune",
+      "changes": [
+        "version: (new) v0.6.1",
+        "active: pushed 0d ago"
+      ],
+      "github_stars": 5716,
+      "catalog_stars": 5700,
+      "latest_version": "v0.6.1",
+      "catalog_version": "n/a"
+    },
+    {
+      "entry": "huggingface/trl",
+      "file": "catalog\\06_finetuning_training\\trl.md",
+      "name": "trl",
+      "changes": [
+        "version: (new) v1.0.0",
+        "active: pushed 0d ago"
+      ],
+      "github_stars": 17879,
+      "catalog_stars": 17900,
+      "latest_version": "v1.0.0",
+      "catalog_version": "n/a"
+    },
+    {
+      "entry": "unslothai/unsloth",
+      "file": "catalog\\06_finetuning_training\\unsloth.md",
+      "name": "unsloth",
+      "changes": [
+        "version: (new) v0.1.3-beta",
+        "active: pushed 0d ago"
+      ],
+      "github_stars": 58855,
+      "catalog_stars": 58800,
+      "latest_version": "v0.1.3-beta",
+      "catalog_version": "n/a"
+    },
+    {
+      "entry": "volcengine/verl",
+      "file": "catalog\\06_finetuning_training\\verl.md",
+      "name": "verl",
+      "changes": [
+        "version: (new) v0.7.1",
+        "active: pushed 0d ago"
+      ],
+      "github_stars": 20384,
+      "catalog_stars": 20400,
+      "latest_version": "v0.7.1",
+      "catalog_version": "n/a"
+    }
+  ],
+  "errors": [],
+  "updated_files": []
+}

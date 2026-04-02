@@ -1,0 +1,244 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#161b22"/>
+    </linearGradient>
+    <linearGradient id="researchGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90D9"/>
+      <stop offset="100%" style="stop-color:#357ABD"/>
+    </linearGradient>
+    <linearGradient id="evalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D94A8A"/>
+      <stop offset="100%" style="stop-color:#C0367A"/>
+    </linearGradient>
+    <linearGradient id="updateGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D9A04A"/>
+      <stop offset="100%" style="stop-color:#C08A30"/>
+    </linearGradient>
+    <linearGradient id="catalogGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4AD9A0"/>
+      <stop offset="100%" style="stop-color:#30C088"/>
+    </linearGradient>
+    <linearGradient id="archiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9B59B6"/>
+      <stop offset="100%" style="stop-color:#8244A0"/>
+    </linearGradient>
+    <linearGradient id="dbGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2ECC71"/>
+      <stop offset="100%" style="stop-color:#27AE60"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="40%" style="stop-color:#06b6d4"/>
+      <stop offset="100%" style="stop-color:#10b981"/>
+    </linearGradient>
+
+    <!-- Glow filters -->
+    <filter id="glowBlue" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#4A90D9" flood-opacity="0.3"/>
+      <feComposite in2="blur" operator="in"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowPink" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#D94A8A" flood-opacity="0.3"/>
+      <feComposite in2="blur" operator="in"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowGold" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#D9A04A" flood-opacity="0.3"/>
+      <feComposite in2="blur" operator="in"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowGreen" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#4AD9A0" flood-opacity="0.3"/>
+      <feComposite in2="blur" operator="in"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowPurple" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#9B59B6" flood-opacity="0.3"/>
+      <feComposite in2="blur" operator="in"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowDB" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#2ECC71" flood-opacity="0.4"/>
+      <feComposite in2="blur" operator="in"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Animated data particle -->
+    <circle id="particle" r="3" fill="#fff" opacity="0.9">
+      <animate attributeName="opacity" values="0.9;0.3;0.9" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Pulse animation for nodes -->
+    <style>
+      @keyframes pulse { 0%,100% { opacity: 0.6; } 50% { opacity: 1; } }
+      @keyframes fadeSlide { 0% { opacity: 0; transform: translateY(5px); } 100% { opacity: 1; transform: translateY(0); } }
+      @keyframes dash { to { stroke-dashoffset: -20; } }
+      @keyframes glow { 0%,100% { opacity: 0.4; } 50% { opacity: 0.8; } }
+      .node-label { animation: pulse 3s ease-in-out infinite; }
+      .flow-line { stroke-dasharray: 8 4; animation: dash 1.5s linear infinite; }
+      .flow-line-slow { stroke-dasharray: 8 4; animation: dash 2.5s linear infinite; }
+      .glow-ring { animation: glow 3s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="620" rx="16" fill="url(#bgGrad)"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.03">
+    <line x1="0" y1="0" x2="0" y2="620" stroke="#fff" stroke-width="1" transform="translate(50,0)"/>
+    <line x1="0" y1="0" x2="0" y2="620" stroke="#fff" stroke-width="1" transform="translate(150,0)"/>
+    <line x1="0" y1="0" x2="0" y2="620" stroke="#fff" stroke-width="1" transform="translate(250,0)"/>
+    <line x1="0" y1="0" x2="0" y2="620" stroke="#fff" stroke-width="1" transform="translate(350,0)"/>
+    <line x1="0" y1="0" x2="0" y2="620" stroke="#fff" stroke-width="1" transform="translate(450,0)"/>
+    <line x1="0" y1="0" x2="0" y2="620" stroke="#fff" stroke-width="1" transform="translate(550,0)"/>
+    <line x1="0" y1="0" x2="0" y2="620" stroke="#fff" stroke-width="1" transform="translate(650,0)"/>
+    <line x1="0" y1="0" x2="0" y2="620" stroke="#fff" stroke-width="1" transform="translate(750,0)"/>
+    <line x1="0" y1="0" x2="0" y2="620" stroke="#fff" stroke-width="1" transform="translate(850,0)"/>
+  </g>
+
+  <!-- Title -->
+  <text x="450" y="44" text-anchor="middle" fill="url(#titleGrad)" font-size="20" font-weight="700" letter-spacing="4">ARIA — Nightly Pipeline</text>
+  <text x="450" y="64" text-anchor="middle" fill="#06b6d4" font-size="12" opacity="0.7">23:00 → 07:00 CET  ·  Fully Autonomous</text>
+
+  <!-- Phase 1 label -->
+  <text x="450" y="100" text-anchor="middle" fill="#8B949E" font-size="11" font-weight="600" letter-spacing="2">PHASE 1 — COLLECT &amp; ANALYZE</text>
+  <line x1="140" y1="107" x2="760" y2="107" stroke="#30363D" stroke-width="1"/>
+
+  <!-- ==================== AGENT NODES ==================== -->
+
+  <!-- RESEARCHER (left) -->
+  <g filter="url(#glowBlue)">
+    <rect x="95" y="125" width="200" height="130" rx="12" fill="url(#researchGrad)" opacity="0.15" class="glow-ring"/>
+    <rect x="100" y="128" width="190" height="124" rx="10" fill="url(#researchGrad)" opacity="0.9"/>
+  </g>
+  <text x="195" y="156" text-anchor="middle" fill="#fff" font-size="15" font-weight="700">Researcher</text>
+  <line x1="130" y1="166" x2="260" y2="166" stroke="#fff" stroke-width="0.5" opacity="0.3"/>
+  <text x="195" y="185" text-anchor="middle" fill="#E6F0FF" font-size="11" opacity="0.9">Crawls GitHub, HuggingFace,</text>
+  <text x="195" y="200" text-anchor="middle" fill="#E6F0FF" font-size="11" opacity="0.9">arXiv, Reddit, HN,</text>
+  <text x="195" y="215" text-anchor="middle" fill="#E6F0FF" font-size="11" opacity="0.9">Product Hunt...</text>
+  <text x="195" y="240" text-anchor="middle" fill="#fff" font-size="10" font-weight="600" opacity="0.7">OSINT SPECIALIST</text>
+
+  <!-- EVALUATOR (center) -->
+  <g filter="url(#glowPink)">
+    <rect x="345" y="125" width="200" height="130" rx="12" fill="url(#evalGrad)" opacity="0.15" class="glow-ring"/>
+    <rect x="350" y="128" width="190" height="124" rx="10" fill="url(#evalGrad)" opacity="0.9"/>
+  </g>
+  <text x="445" y="156" text-anchor="middle" fill="#fff" font-size="15" font-weight="700">Evaluator</text>
+  <line x1="380" y1="166" x2="510" y2="166" stroke="#fff" stroke-width="0.5" opacity="0.3"/>
+  <text x="445" y="185" text-anchor="middle" fill="#FFE6F0" font-size="11" opacity="0.9">Scores every tool on</text>
+  <text x="445" y="200" text-anchor="middle" fill="#FFE6F0" font-size="11" opacity="0.9">6 enterprise dimensions:</text>
+  <text x="445" y="215" text-anchor="middle" fill="#FFE6F0" font-size="11" opacity="0.9">Security, Scale, Docs...</text>
+  <text x="445" y="240" text-anchor="middle" fill="#fff" font-size="10" font-weight="600" opacity="0.7">QUALITY ANALYST</text>
+
+  <!-- UPDATER (right) -->
+  <g filter="url(#glowGold)">
+    <rect x="595" y="125" width="200" height="130" rx="12" fill="url(#updateGrad)" opacity="0.15" class="glow-ring"/>
+    <rect x="600" y="128" width="190" height="124" rx="10" fill="url(#updateGrad)" opacity="0.9"/>
+  </g>
+  <text x="695" y="156" text-anchor="middle" fill="#fff" font-size="15" font-weight="700">Updater</text>
+  <line x1="630" y1="166" x2="760" y2="166" stroke="#fff" stroke-width="0.5" opacity="0.3"/>
+  <text x="695" y="185" text-anchor="middle" fill="#FFF5E6" font-size="11" opacity="0.9">Monitors 200+ repos:</text>
+  <text x="695" y="200" text-anchor="middle" fill="#FFF5E6" font-size="11" opacity="0.9">versions, stars, activity,</text>
+  <text x="695" y="215" text-anchor="middle" fill="#FFF5E6" font-size="11" opacity="0.9">archived projects</text>
+  <text x="695" y="240" text-anchor="middle" fill="#fff" font-size="10" font-weight="600" opacity="0.7">VERSION SENTINEL</text>
+
+  <!-- Phase 2 label -->
+  <text x="450" y="295" text-anchor="middle" fill="#8B949E" font-size="11" font-weight="600" letter-spacing="2">PHASE 2 — STRUCTURE &amp; RECOMMEND</text>
+  <line x1="140" y1="302" x2="760" y2="302" stroke="#30363D" stroke-width="1"/>
+
+  <!-- CATALOGER (center-left) -->
+  <g filter="url(#glowGreen)">
+    <rect x="155" y="320" width="220" height="130" rx="12" fill="url(#catalogGrad)" opacity="0.15" class="glow-ring"/>
+    <rect x="160" y="323" width="210" height="124" rx="10" fill="url(#catalogGrad)" opacity="0.9"/>
+  </g>
+  <text x="265" y="351" text-anchor="middle" fill="#fff" font-size="15" font-weight="700">Cataloger</text>
+  <line x1="190" y1="361" x2="340" y2="361" stroke="#fff" stroke-width="0.5" opacity="0.3"/>
+  <text x="265" y="380" text-anchor="middle" fill="#E6FFF5" font-size="11" opacity="0.9">Converts raw findings into</text>
+  <text x="265" y="395" text-anchor="middle" fill="#E6FFF5" font-size="11" opacity="0.9">structured catalog entries</text>
+  <text x="265" y="410" text-anchor="middle" fill="#E6FFF5" font-size="11" opacity="0.9">with standard template</text>
+  <text x="265" y="435" text-anchor="middle" fill="#fff" font-size="10" font-weight="600" opacity="0.7">DATA ENGINEER</text>
+
+  <!-- ARCHITECT (center-right) -->
+  <g filter="url(#glowPurple)">
+    <rect x="520" y="320" width="220" height="130" rx="12" fill="url(#archiGrad)" opacity="0.15" class="glow-ring"/>
+    <rect x="525" y="323" width="210" height="124" rx="10" fill="url(#archiGrad)" opacity="0.9"/>
+  </g>
+  <text x="630" y="351" text-anchor="middle" fill="#fff" font-size="15" font-weight="700">Architect</text>
+  <line x1="555" y1="361" x2="705" y2="361" stroke="#fff" stroke-width="0.5" opacity="0.3"/>
+  <text x="630" y="380" text-anchor="middle" fill="#F0E6FF" font-size="11" opacity="0.9">Recommends tech stacks</text>
+  <text x="630" y="395" text-anchor="middle" fill="#F0E6FF" font-size="11" opacity="0.9">for specific use cases</text>
+  <text x="630" y="410" text-anchor="middle" fill="#F0E6FF" font-size="11" opacity="0.9">from the catalog</text>
+  <text x="630" y="435" text-anchor="middle" fill="#fff" font-size="10" font-weight="600" opacity="0.7">SOLUTIONS DESIGNER</text>
+
+  <!-- ==================== FLOW LINES (animated) ==================== -->
+
+  <!-- Researcher → Cataloger -->
+  <path d="M195 252 L195 275 Q195 285 205 290 L245 310 Q255 315 260 320" stroke="#4A90D9" stroke-width="2" fill="none" class="flow-line" opacity="0.7"/>
+  <circle r="3" fill="#4A90D9">
+    <animateMotion dur="2s" repeatCount="indefinite" path="M195 252 L195 275 Q195 285 205 290 L245 310 Q255 315 260 320"/>
+  </circle>
+
+  <!-- Evaluator → Cataloger -->
+  <path d="M395 252 L395 275 Q395 285 380 292 L300 315 Q285 320 275 325" stroke="#D94A8A" stroke-width="2" fill="none" class="flow-line" opacity="0.7"/>
+  <circle r="3" fill="#D94A8A">
+    <animateMotion dur="2.2s" repeatCount="indefinite" path="M395 252 L395 275 Q395 285 380 292 L300 315 Q285 320 275 325"/>
+  </circle>
+
+  <!-- Updater → Cataloger -->
+  <path d="M650 252 L650 275 Q650 285 635 290 L310 315 Q290 320 280 325" stroke="#D9A04A" stroke-width="2" fill="none" class="flow-line-slow" opacity="0.7"/>
+  <circle r="3" fill="#D9A04A">
+    <animateMotion dur="2.8s" repeatCount="indefinite" path="M650 252 L650 275 Q650 285 635 290 L310 315 Q290 320 280 325"/>
+  </circle>
+
+  <!-- Researcher → Architect -->
+  <path d="M245 252 L245 275 Q245 290 260 295 L590 315 Q610 320 620 325" stroke="#4A90D9" stroke-width="1.5" fill="none" class="flow-line-slow" opacity="0.4"/>
+  <circle r="2.5" fill="#4A90D9" opacity="0.6">
+    <animateMotion dur="3s" repeatCount="indefinite" path="M245 252 L245 275 Q245 290 260 295 L590 315 Q610 320 620 325"/>
+  </circle>
+
+  <!-- ==================== OUTPUT ==================== -->
+
+  <!-- Output label -->
+  <text x="450" y="490" text-anchor="middle" fill="#8B949E" font-size="11" font-weight="600" letter-spacing="2">OUTPUT</text>
+  <line x1="200" y1="497" x2="700" y2="497" stroke="#30363D" stroke-width="1"/>
+
+  <!-- Cataloger → DB -->
+  <path d="M265 447 L265 470 Q265 485 300 490 L390 505 Q420 510 440 515" stroke="#4AD9A0" stroke-width="2" fill="none" class="flow-line" opacity="0.7"/>
+  <circle r="3" fill="#4AD9A0">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M265 447 L265 470 Q265 485 300 490 L390 505 Q420 510 440 515"/>
+  </circle>
+
+  <!-- Architect → DB -->
+  <path d="M630 447 L630 470 Q630 485 600 490 L510 505 Q480 510 460 515" stroke="#9B59B6" stroke-width="2" fill="none" class="flow-line" opacity="0.7"/>
+  <circle r="3" fill="#9B59B6">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M630 447 L630 470 Q630 485 600 490 L510 505 Q480 510 460 515"/>
+  </circle>
+
+  <!-- DATABASE NODE -->
+  <g filter="url(#glowDB)">
+    <rect x="310" y="515" width="280" height="80" rx="14" fill="#2C3E50" opacity="0.3" class="glow-ring"/>
+    <rect x="315" y="518" width="270" height="74" rx="12" fill="#2C3E50"/>
+  </g>
+  <text x="450" y="545" text-anchor="middle" fill="#2ECC71" font-size="18" font-weight="700">catalog/*.md</text>
+  <text x="450" y="568" text-anchor="middle" fill="#8B949E" font-size="12">323+ entries  ·  18 categories  ·  Updated daily</text>
+
+  <!-- Decorative corner accents -->
+  <line x1="20" y1="20" x2="60" y2="20" stroke="#4A90D9" stroke-width="2" opacity="0.4"/>
+  <line x1="20" y1="20" x2="20" y2="60" stroke="#4A90D9" stroke-width="2" opacity="0.4"/>
+  <line x1="880" y1="600" x2="840" y2="600" stroke="#2ECC71" stroke-width="2" opacity="0.4"/>
+  <line x1="880" y1="600" x2="880" y2="560" stroke="#2ECC71" stroke-width="2" opacity="0.4"/>
+
+  <!-- Bottom branding -->
+  <text x="450" y="610" text-anchor="middle" fill="#484F58" font-size="10">github.com/Tito-42/ARIA</text>
+</svg>
