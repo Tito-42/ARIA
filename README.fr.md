@@ -1,6 +1,6 @@
 <div align="center">
 
-**[English](README.md)** | **[Francais](#pourquoi-aria-existe)** | **[Espanol](README.es.md)** | **[Guide debutant](guides/how-to-use-aria.md)**
+**[English](README.md)** | **[Français](#pourquoi-aria-existe)** | **[Español](README.es.md)** | **[Guide débutant](guides/how-to-use-aria.fr.md)**
 
 <br/>
 
@@ -16,7 +16,7 @@
 [![Updated](https://img.shields.io/badge/Derniere_MAJ-Avril_2026-brightgreen)]()
 [![Agents](https://img.shields.io/badge/Maintenu_par-Agents_IA-purple)]()
 
-[**Comment l'utiliser**](#comment-utiliser-aria) | [**Le catalogue**](#ce-quil-y-a-dedans) | [**Comment ca marche**](#comment-ca-marche) | [**Contribuer**](#contribuer)
+[**Comment l'utiliser**](#comment-utiliser-aria) | [**Le catalogue**](#ce-quil-y-a-dedans) | [**Comment ça marche**](#comment-ca-marche) | [**Contribuer**](#contribuer)
 
 </div>
 
@@ -24,51 +24,51 @@
 
 ## Pourquoi ARIA existe
 
-Le monde de l'IA a trouve son accelerateur. De nouveaux outils, modeles et frameworks sortent **chaque jour**. Ce qui etait "le meilleur choix" la semaine derniere est deja depasse. Et chercher a l'ancienne — taper des mots-cles dans Google, scroller des articles de blog SEO ecrits en 2024 — c'est deja obsolete.
+Le monde de l'IA a trouvé son accélérateur. De nouveaux outils, modèles et frameworks sortent **chaque jour**. Ce qui était "le meilleur choix" la semaine dernière est déjà dépassé. Et chercher à l'ancienne — taper des mots-clés dans Google, scroller des articles de blog SEO écrits en 2024 — c'est déjà obsolète.
 
-Le temps que tu trouves, compares et evalues un outil, trois nouvelles alternatives ont deja ete publiees.
+Le temps que tu trouves, compares et évalues un outil, trois nouvelles alternatives ont déjà été publiées.
 
-**ARIA a ete construit pour resoudre ce probleme.**
+**ARIA a été construit pour résoudre ce problème.**
 
-C'est une base de connaissances vivante de l'ecosysteme IA — 323 outils repartis dans 18 categories — ou chaque entree est structuree, notee et verifiee. Mais le plus important : **ARIA ne depend pas d'humains pour rester a jour.** Une equipe de 5 agents IA specialises travaille chaque nuit pour parcourir le web, trouver les nouveautes, verifier ce qui a change, et mettre a jour le catalogue automatiquement.
+C'est une base de connaissances vivante de l'écosystème IA — 323 outils répartis dans 18 catégories — où chaque entrée est structurée, notée et vérifiée. Mais le plus important : **ARIA ne dépend pas d'humains pour rester à jour.** Une équipe de 5 agents IA spécialisés travaille chaque nuit pour parcourir le web, trouver les nouveautés, vérifier ce qui a changé, et mettre à jour le catalogue automatiquement.
 
-Tu te reveilles le matin. La base est a jour. Tu poses une question. Tu obtiens une reponse.
+Tu te réveilles le matin. La base est à jour. Tu poses une question. Tu obtiens une réponse.
 
-> *"Le goulot d'etranglement n'est plus l'intelligence — c'est de savoir ce qui existe."*
+> *"Le goulot d'étranglement n'est plus l'intelligence — c'est de savoir ce qui existe."*
 
 ---
 
 ## Comment utiliser ARIA
 
-### La methode la plus simple : demander a Claude (recommande)
+### La méthode la plus simple : demander à Claude (recommandé)
 
-Pas besoin d'etre technique. Pas besoin d'installer quoi que ce soit. Ouvre [claude.ai](https://claude.ai) (gratuit) et colle ta question avec l'URL du catalogue. Claude lit du Markdown brut via GitHub Pages et cite les outils avec leurs scores enterprise exacts.
+Pas besoin d'être technique. Pas besoin d'installer quoi que ce soit. Ouvre [claude.ai](https://claude.ai) (gratuit) et colle ta question avec l'URL du catalogue. Claude lit du Markdown brut via GitHub Pages et cite les outils avec leurs scores enterprise exacts.
 
-> **Pourquoi Claude ?** Apres plusieurs benchmarks, Claude est le seul LLM gratuit qui lit reellement le catalogue, cite les vrais outils avec les scores, et n'hallucine pas. ChatGPT et Gemini (gratuits) n'arrivent pas a lire l'URL et repondent avec leurs propres connaissances generiques. Voir le [benchmark complet](BENCHMARK_LLM.md).
+> **Pourquoi Claude ?** Après plusieurs benchmarks, Claude est le seul LLM gratuit qui lit réellement le catalogue, cite les vrais outils avec les scores, et n'hallucine pas. ChatGPT et Gemini (gratuits) n'arrivent pas à lire l'URL et répondent avec leurs propres connaissances génériques. Voir le [benchmark complet](BENCHMARK_LLM.md).
 
-> **Tu ne sais pas ce qu'est un chatbot IA ?** C'est comme un assistant personnel a qui tu peux poser des questions en langage naturel. Les plus connus : [Claude](https://claude.ai) (par Anthropic — **recommande**), [ChatGPT](https://chat.openai.com) (par OpenAI), [Gemini](https://gemini.google.com) (par Google).
+> **Tu ne sais pas ce qu'est un chatbot IA ?** C'est comme un assistant personnel à qui tu peux poser des questions en langage naturel. Les plus connus : [Claude](https://claude.ai) (par Anthropic — **recommandé**), [ChatGPT](https://chat.openai.com) (par OpenAI), [Gemini](https://gemini.google.com) (par Google).
 
 **Exemples :**
 
-| Ton besoin | Ce que tu ecris |
+| Ton besoin | Ce que tu écris |
 |------------|----------------|
-| Mettre en place un chatbot client | Je veux creer un chatbot IA pour le support client. Quelles sont les meilleures options open-source ? Lis https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
-| Choisir une base de donnees pour du RAG | Je monte un pipeline RAG. Compare les bases vectorielles. Lis https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
+| Mettre en place un chatbot client | Je veux créer un chatbot IA pour le support client. Quelles sont les meilleures options open-source ? Lis https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
+| Choisir une base de données pour du RAG | Je monte un pipeline RAG. Compare les bases vectorielles. Lis https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
 | Automatiser le traitement de factures | Quels outils IA peuvent automatiser l'extraction de factures ? Lis https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
-| Trouver un outil de synthese vocale | J'ai besoin d'un moteur text-to-speech open-source. Que recommandes-tu ? Lis https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
+| Trouver un outil de synthèse vocale | J'ai besoin d'un moteur text-to-speech open-source. Que recommandes-tu ? Lis https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
 | Automatiser le cold mailing | Quels outils open-source peuvent automatiser le cold emailing avec de l'IA ? Lis https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
 
-**C'est tout.** L'IA lit les fiches structurees, compare les outils, verifie les licences, et te donne une recommandation — avec les scores de maturite, les alternatives, et comment demarrer.
+**C'est tout.** L'IA lit les fiches structurées, compare les outils, vérifie les licences, et te donne une recommandation — avec les scores de maturité, les alternatives, et comment démarrer.
 
-> **Pourquoi c'est mieux que Google ?** Google te donne des articles d'opinion, souvent sponsorises, souvent perimes. ARIA te donne des **fiches structurees, verifiees et mises a jour quotidiennement** par des agents IA. GitHub Pages sert du Markdown brut — les LLMs le lisent directement sans se battre avec le rendu JavaScript. Reponses plus rapides, plus fiables, moins couteuses en tokens.
+> **Pourquoi c'est mieux que Google ?** Google te donne des articles d'opinion, souvent sponsorisés, souvent périmés. ARIA te donne des **fiches structurées, vérifiées et mises à jour quotidiennement** par des agents IA. GitHub Pages sert du Markdown brut — les LLMs le lisent directement sans se battre avec le rendu JavaScript. Réponses plus rapides, plus fiables, moins coûteuses en tokens.
 
-> **Tutoriel complet pour debutants :** Si tu n'as jamais utilise de chatbot IA, consulte le [guide pas-a-pas](guides/how-to-use-aria.md) avec captures d'ecran et explications detaillees.
+> **Tutoriel complet pour débutants :** Si tu n'as jamais utilisé de chatbot IA, consulte le [guide pas-à-pas](guides/how-to-use-aria.fr.md) avec captures d'écran et explications détaillées.
 
 ### Naviguer directement sur GitHub
 
 Chaque outil est un fichier Markdown que tu peux lire directement. Clique sur le dossier [`catalog/`](catalog/) et explore.
 
-### Utiliser avec Claude Code (avance)
+### Utiliser avec Claude Code (avancé)
 
 ```bash
 git clone https://github.com/Tito-42/ARIA.git
@@ -79,18 +79,18 @@ Puis demande ce que tu veux :
 ```
 > Quel est l'outil de code review IA le plus mature ?
 > Compare Langfuse vs Helicone pour le monitoring LLM
-> Quels processus metier peut-on automatiser a 80% avec l'IA ?
+> Quels processus métier peut-on automatiser à 80% avec l'IA ?
 ```
 
 ---
 
 ## Ce qu'il y a dedans
 
-### 18 categories, 323+ fiches
+### 18 catégories, 323+ fiches
 
-| | Categorie | Fiches | Exemples |
+| | Catégorie | Fiches | Exemples |
 |---|----------|:-------:|----------|
-| 01 | **Generation de code** | 11 | Claude Code, Cursor, Gemini CLI, Aider, OpenHands |
+| 01 | **Génération de code** | 11 | Claude Code, Cursor, Gemini CLI, Aider, OpenHands |
 | 02 | **Agents IA** | 35 | LangChain, CrewAI, AutoGPT, Dify, Browser Use |
 | 03 | **Protocole MCP** | 17 | FastMCP, Playwright-MCP, GitHub-MCP, AWS-MCP |
 | 04 | **Frontend / UI** | 9 | v0, Bolt, Lovable, Firebase Studio |
@@ -104,20 +104,20 @@ Puis demande ce que tu veux :
 | 12 | **Enterprise** | 20 | Langfuse, Portkey, Kong AI Gateway, Infisical |
 | 13 | **Benchmarks** | 7 | ARC-AGI, SWE-bench, Chatbot Arena |
 | 14 | **LLMs Open Source** | 13 | Llama, Mistral, Qwen, DeepSeek, Phi |
-| 15 | **Domaine & Metier** | 29 | Sante, Finance, Juridique, Cybersec, **Automatisation** |
-| 16 | **Securite IA** | 15 | Promptfoo, Garak, NeMo Guardrails |
+| 15 | **Domaine & Métier** | 29 | Santé, Finance, Juridique, Cybersec, **Automatisation** |
+| 16 | **Sécurité IA** | 15 | Promptfoo, Garak, NeMo Guardrails |
 | 17 | **Multimodal** | 19 | LLaVA, Qwen-VL, Docling, MinerU, ImageBind |
 | 18 | **Infrastructure** | 19 | llama.cpp, TensorRT-LLM, Flash Attention |
 
-### Automatisation des processus metier
+### Automatisation des processus métier
 
-La categorie la plus concrete : des outils open-source qui automatisent **aujourd'hui** des taches business reelles.
+La catégorie la plus concrète : des outils open-source qui automatisent **aujourd'hui** des tâches business réelles.
 
 | Outil | Ce qu'il automatise | Combien | Stars |
 |-------|-------------------|:--------:|:-----:|
-| [Firecrawl](catalog/15_domain_specific/business-automation/firecrawl.md) | Extraction de donnees web | ~90% | 103K |
-| [Flowise](catalog/15_domain_specific/business-automation/flowise.md) | Creation d'agents IA (visuel) | 70-90% | 51K |
-| [MindsDB](catalog/15_domain_specific/business-automation/mindsdb.md) | Analytics IA sur donnees live | ~75% | 39K |
+| [Firecrawl](catalog/15_domain_specific/business-automation/firecrawl.md) | Extraction de données web | ~90% | 103K |
+| [Flowise](catalog/15_domain_specific/business-automation/flowise.md) | Création d'agents IA (visuel) | 70-90% | 51K |
+| [MindsDB](catalog/15_domain_specific/business-automation/mindsdb.md) | Analytics IA sur données live | ~75% | 39K |
 | [Chatwoot](catalog/15_domain_specific/business-automation/chatwoot.md) | Support client | 60-70% | 28K |
 | [WrenAI](catalog/15_domain_specific/business-automation/wrenai.md) | Business intelligence (text-to-SQL) | ~80% | 15K |
 | [PR-Agent](catalog/15_domain_specific/business-automation/pr-agent.md) | Code review | 70-80% | 11K |
@@ -126,33 +126,33 @@ La categorie la plus concrete : des outils open-source qui automatisent **aujour
 
 ---
 
-## Chaque fiche ressemble a ca
+## Chaque fiche ressemble à ça
 
-Chaque outil est documente avec une structure coherente pour t'aider a decider vite :
+Chaque outil est documenté avec une structure cohérente pour t'aider à décider vite :
 
-> **Metadata** — Stars GitHub, licence, prix, date de verification, niveau de maturite
+> **Metadata** — Stars GitHub, licence, prix, date de vérification, niveau de maturité
 >
-> **Ce que ca fait** — Explication en langage simple
+> **Ce que ça fait** — Explication en langage simple
 >
-> **Fonctionnalites cles** — Ce qui le distingue
+> **Fonctionnalités clés** — Ce qui le distingue
 >
-> **Score Enterprise** — Note de 1 a 5 sur : Maturite, Securite, Scalabilite, Communaute, Documentation, Facilite d'integration
+> **Score Enterprise** — Note de 1 à 5 sur : Maturité, Sécurité, Scalabilité, Communauté, Documentation, Facilité d'intégration
 >
-> **Cas d'usage** — Scenarios concrets
+> **Cas d'usage** — Scénarios concrets
 >
-> **Pour demarrer** — Commandes a copier-coller
+> **Pour démarrer** — Commandes à copier-coller
 >
-> **Forces & Limites** — Evaluation honnete
+> **Forces & Limites** — Évaluation honnête
 >
-> **Alternatives** — Ce qui existe d'autre et comment ca se compare
+> **Alternatives** — Ce qui existe d'autre et comment ça se compare
 
 ---
 
-## Comment ca marche
+## Comment ça marche
 
-### Le systeme multi-agents
+### Le système multi-agents
 
-ARIA n'est pas maintenu a la main. Il est maintenu par une equipe de **5 agents IA specialises**, chacun avec un role precis — comme une petite entreprise de recherche qui ne dort jamais.
+ARIA n'est pas maintenu à la main. Il est maintenu par une équipe de **5 agents IA spécialisés**, chacun avec un rôle précis — comme une petite entreprise de recherche qui ne dort jamais.
 
 <div align="center">
   <picture>
@@ -163,39 +163,39 @@ ARIA n'est pas maintenu a la main. Il est maintenu par une equipe de **5 agents 
 | Agent | Ce qu'il fait |
 |-------|--------------|
 | **Chercheur** | Parcourt GitHub Trending, Awesome Lists, HuggingFace, arXiv, Reddit, Hacker News, Product Hunt. Trouve les nouveaux outils et les tendances. |
-| **Catalogeur** | Transforme les decouvertes brutes en fiches structurees selon le template standard. |
-| **Evaluateur** | Note chaque outil sur 6 dimensions : Maturite, Securite, Scalabilite, Communaute, Documentation, Integration. |
-| **Veilleur** | Lance le script de verification de versions sur 200+ repos GitHub. Detecte les nouvelles releases, les changements de stars, les projets archives. |
-| **Architecte** | Pour un besoin donne ("J'ai besoin d'un pipeline RAG pour des documents juridiques"), recommande la meilleure combinaison d'outils du catalogue. |
+| **Catalogeur** | Transforme les découvertes brutes en fiches structurées selon le template standard. |
+| **Évaluateur** | Note chaque outil sur 6 dimensions : Maturité, Sécurité, Scalabilité, Communauté, Documentation, Intégration. |
+| **Veilleur** | Lance le script de vérification de versions sur 200+ repos GitHub. Détecte les nouvelles releases, les changements de stars, les projets archivés. |
+| **Architecte** | Pour un besoin donné ("J'ai besoin d'un pipeline RAG pour des documents juridiques"), recommande la meilleure combinaison d'outils du catalogue. |
 
 ### Le script de veille
 
-Un script leger qui maintient le catalogue a jour. Il verifie chaque repo GitHub et signale ce qui a change — pour que les agents ne perdent pas de temps a re-rechercher des outils qui n'ont pas bouge.
+Un script léger qui maintient le catalogue à jour. Il vérifie chaque repo GitHub et signale ce qui a changé — pour que les agents ne perdent pas de temps à re-rechercher des outils qui n'ont pas bougé.
 
-Ce qu'il detecte :
+Ce qu'il détecte :
 - Nouvelles releases et changements de version
 - Variations significatives du nombre de stars
-- Projets archives ou abandonnes
-- Repos recemment actifs (push < 7 jours)
+- Projets archivés ou abandonnés
+- Repos récemment actifs (push < 7 jours)
 
-Il gere automatiquement les limites de l'API GitHub — s'il atteint la limite, il attend et reprend. Concu pour tourner sans surveillance sur un serveur.
+Il gère automatiquement les limites de l'API GitHub — s'il atteint la limite, il attend et reprend. Conçu pour tourner sans surveillance sur un serveur.
 
-### D'ou viennent les donnees
+### D'où viennent les données
 
 | Niveau | Sources |
 |--------|---------|
 | **Primaire** | GitHub Trending, Awesome Lists, HuggingFace, Papers with Code |
-| **Communaute** | Reddit (r/LocalLLaMA, r/MachineLearning), Hacker News, Product Hunt |
+| **Communauté** | Reddit (r/LocalLLaMA, r/MachineLearning), Hacker News, Product Hunt |
 | **Recherche** | arXiv, LabLab.ai, Devpost, LMSys Chatbot Arena |
 
-### Barre de qualite
+### Barre de qualité
 
 Tout n'entre pas dans ARIA :
-- **Open source de preference** (code source disponible au minimum)
+- **Open source de préférence** (code source disponible au minimum)
 - **Activement maintenu** (commits dans les 6 derniers mois)
-- **Traction reelle** (500+ stars GitHub, ou valeur unique dans sa niche)
-- **Liens verifies** (toutes les URLs testees avant catalogage)
-- **Notation honnete** (forces ET limites documentees)
+- **Traction réelle** (500+ stars GitHub, ou valeur unique dans sa niche)
+- **Liens vérifiés** (toutes les URLs testées avant catalogage)
+- **Notation honnête** (forces ET limites documentées)
 
 ---
 
@@ -204,26 +204,26 @@ Tout n'entre pas dans ARIA :
 | | |
 |---|---|
 | Fiches catalogue | **323+** |
-| Categories | **18** |
-| Repos GitHub surveilles | **200+** |
+| Catégories | **18** |
+| Repos GitHub surveillés | **200+** |
 | Agents IA | **5** |
-| Frequence de MAJ | **Quotidienne** (23h-7h CET) |
-| Derniere MAJ | **Avril 2026** |
+| Fréquence de MAJ | **Quotidienne** (23h-7h CET) |
+| Dernière MAJ | **Avril 2026** |
 
 ---
 
 ## Contribuer
 
-ARIA est open source. Si tu trouves un outil manquant, une fiche perimee, ou une categorie a completer — les contributions sont les bienvenues.
+ARIA est open source. Si tu trouves un outil manquant, une fiche périmée, ou une catégorie à compléter — les contributions sont les bienvenues.
 
 **Ajouter un outil :**
 1. Copie le template depuis `catalog/_schema/template-tool.md`
-2. Remplis toutes les sections (metadata, fonctionnalites, score enterprise, etc.)
-3. Place-le dans le bon dossier de categorie
+2. Remplis toutes les sections (metadata, fonctionnalités, score enterprise, etc.)
+3. Place-le dans le bon dossier de catégorie
 4. Ouvre une Pull Request
 
-**Signaler un probleme :**
-Lien casse ? Info fausse ? Version perimee ? Ouvre une issue.
+**Signaler un problème :**
+Lien cassé ? Info fausse ? Version périmée ? Ouvre une issue.
 
 ---
 
@@ -242,15 +242,15 @@ ARIA/
 
 <div align="center">
 
-### Arretez de googler. Commencez a interroger.
+### Arrêtez de googler. Commencez à interroger.
 
-L'ecosysteme IA va trop vite pour la recherche manuelle.<br/>
-Laissez les agents faire le travail. Vous, prenez les decisions.
+L'écosystème IA va trop vite pour la recherche manuelle.<br/>
+Laissez les agents faire le travail. Vous, prenez les décisions.
 
 ---
 
 **[Licence MIT](LICENSE)** | Construit avec [Claude Code](https://claude.ai/code) | Maintenu par des agents IA
 
-*Cree par [Tito_42](https://github.com/Tito-42)*
+*Créé par [Tito_42](https://github.com/Tito-42)*
 
 </div>

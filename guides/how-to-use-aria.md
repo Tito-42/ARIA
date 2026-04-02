@@ -1,6 +1,6 @@
 # How to Use ARIA — Step-by-Step Beginner Guide
 
-**[English](#what-is-aria) | [Francais](#quest-ce-quaria)**
+**[English](#what-is-aria) | [Français](how-to-use-aria.fr.md) | [Español](how-to-use-aria.es.md)**
 
 ---
 
@@ -185,8 +185,12 @@ Ask the chatbot anyway! It may find something close. And you can open an issue o
 
 ### I don't speak English well. Can I use ARIA in my language?
 The catalog entries are mostly in English, but you can ask the AI chatbot in any language. For example:
-- *"Lis https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md et dis-moi en francais quel outil utiliser pour un chatbot"*
-- *"Lee https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md y dime en espanol que herramienta usar para procesar facturas"*
+```
+Lis https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md et dis-moi en français quel outil utiliser pour un chatbot
+```
+```
+Lee https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md y dime en español qué herramienta usar para procesar facturas
+```
 
 The AI will read the English entries and answer you in your language.
 
@@ -200,202 +204,6 @@ Save this for later:
 [Your question]. Read https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md
 
 Works with: Claude, ChatGPT, Gemini, Copilot, or any AI chatbot.
-```
-
----
-
----
-
-# Qu'est-ce qu'ARIA ?
-
-ARIA est comme une **encyclopedie geante des outils IA** — sauf qu'elle est toujours a jour parce que des agents IA la rafraichissent chaque nuit. Elle contient 323+ fiches detaillees sur des outils qui peuvent t'aider a construire des chatbots, automatiser des taches, traiter des documents, generer des images, et bien plus.
-
-Tu n'as pas besoin d'etre developpeur ou expert en IA pour l'utiliser. Tu as juste besoin de savoir poser une question.
-
----
-
-# C'est quoi un chatbot / assistant IA ?
-
-Avant de commencer, mettons-nous d'accord sur les termes.
-
-Un **chatbot IA** (ou assistant IA) est un site web ou tu peux taper des questions en langage normal et obtenir des reponses intelligentes. Pense a un moteur de recherche tres intelligent qui comprend vraiment ce que tu demandes et te donne une reponse directe au lieu d'une liste de liens.
-
-Les plus populaires (tous gratuits pour commencer) :
-
-| Nom | Cree par | Site web | Gratuit ? |
-|-----|----------|----------|-----------|
-| **Claude** | Anthropic | [claude.ai](https://claude.ai) | Oui (version gratuite) |
-| **ChatGPT** | OpenAI | [chat.openai.com](https://chat.openai.com) | Oui (version gratuite) |
-| **Gemini** | Google | [gemini.google.com](https://gemini.google.com) | Oui (version gratuite) |
-| **Copilot** | Microsoft | [copilot.microsoft.com](https://copilot.microsoft.com) | Oui |
-
-Ils fonctionnent tous de la meme facon : tu tapes une question, l'IA repond. C'est tout.
-
----
-
-# Comment utiliser ARIA (3 methodes)
-
-## Methode 1 : Demander a Claude (la plus facile — recommande)
-
-C'est la methode recommandee. Aucune installation, aucun code, aucune competence technique necessaire.
-
-> **Important :** Apres plusieurs benchmarks, **Claude est le seul LLM gratuit** qui lit reellement l'URL du catalogue, cite les vrais outils avec les scores enterprise, et n'hallucine pas. ChatGPT et Gemini (gratuits) n'arrivent pas a lire l'URL et donnent des reponses generiques. Voir le [benchmark complet](../BENCHMARK_LLM.md).
-
-### Etape 1 — Ouvre Claude
-
-Va sur [claude.ai](https://claude.ai) et cree un compte gratuit si tu n'en as pas.
-
-- **Recommande :** [claude.ai](https://claude.ai) — lit le catalogue, cite les scores, pas d'hallucination
-- Non recommande : [chat.openai.com](https://chat.openai.com) — ne lit pas l'URL, reponses generiques
-- Non recommande : [gemini.google.com](https://gemini.google.com) — ne lit pas l'URL, reponses generiques
-
-### Etape 2 — Ecris ta question + le lien ARIA
-
-Dans la zone de texte, ecris ce que tu cherches ET inclus l'URL du catalogue. L'IA va lire les fiches et te repondre.
-
-### Etape 3 — Obtiens ta reponse
-
-L'IA va :
-1. Lire le catalogue ARIA
-2. Trouver les outils pertinents pour ta question
-3. Les comparer
-4. Te donner une recommandation avec les avantages, inconvenients, et comment demarrer
-
-### Exemples concrets a copier-coller
-
-**Exemple 1 — Tu veux creer un chatbot pour ton entreprise :**
-```
-Je veux mettre en place un chatbot IA pour le support client sur mon site web.
-Quelles sont les meilleures options open-source ? J'ai besoin de quelque chose
-de gratuit, facile a installer, et qui fonctionne en francais.
-Lis https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md
-```
-
-**Exemple 2 — Tu veux automatiser le traitement de factures :**
-```
-Mon entreprise traite des centaines de factures par mois manuellement.
-J'aimerais automatiser ca avec l'IA. Recommande des outils qui peuvent
-extraire les donnees de factures PDF automatiquement.
-Lis https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md
-```
-
-**Exemple 3 — Tu veux ajouter l'IA a ton application existante :**
-```
-J'ai une application web et je veux ajouter un assistant IA qui peut repondre
-aux questions sur notre documentation. Quels outils RAG dois-je utiliser ?
-Explique-moi simplement, je ne suis pas expert en IA.
-Lis https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md
-```
-
-**Exemple 4 — Tu veux explorer ce que l'IA peut automatiser :**
-```
-Je dirige une petite agence marketing. Quels processus metier l'IA peut-elle
-automatiser pour moi aujourd'hui ? Concentre-toi sur les outils open-source
-qui peuvent automatiser au moins 60% d'une tache.
-Lis https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md
-```
-
-**Exemple 5 — Tu veux comparer des outils :**
-```
-Je dois choisir un outil de generation de code par IA. Compare les 5 meilleures
-options — dis-moi lequel est le meilleur pour une equipe de 10 developpeurs
-qui travaillent en Python et JavaScript.
-Lis https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md
-```
-
-### Astuces pour de meilleurs resultats
-
-- **Sois precis sur tes besoins :** "J'ai besoin d'un chatbot pour un cabinet dentaire" est mieux que "J'ai besoin d'un chatbot"
-- **Mentionne tes contraintes :** budget, langue, taille d'equipe, niveau technique
-- **Demande des comparaisons :** "Compare X vs Y" te donne une reponse prete a l'emploi
-- **Demande des explications simples :** "Explique-moi comme si je n'etais pas technique" — l'IA s'adaptera
-
----
-
-## Methode 2 : Naviguer directement sur GitHub (sans IA)
-
-Tu peux explorer le catalogue comme un site web, directement sur GitHub.
-
-### Etape 1 — Va sur le catalogue
-
-Ouvre : [https://github.com/Tito-42/ARIA/tree/main/catalog](https://github.com/Tito-42/ARIA/tree/main/catalog)
-
-### Etape 2 — Choisis une categorie
-
-Tu verras des dossiers numerotes de 01 a 18. Chacun couvre un domaine different :
-
-| Dossier | Ce qu'il contient |
-|---------|------------------|
-| `01_code_generation/` | Outils pour ecrire du code avec l'IA |
-| `02_ai_agents/` | Frameworks pour construire des agents IA autonomes |
-| `03_mcp/` | Connecteurs entre l'IA et des outils externes |
-| `04_frontend_ui/` | Outils qui generent des sites web et interfaces |
-| `05_rag_knowledge/` | Bases de donnees et outils pour l'IA qui fouille tes documents |
-| `06_finetuning_training/` | Outils pour personnaliser des modeles IA |
-| `07_computer_vision/` | Reconnaissance d'images, generation, OCR |
-| `08_nlp_text/` | Analyse de texte, classification, traduction |
-| `09_voice_audio/` | Reconnaissance vocale, synthese vocale, voice IA |
-| `10_data_science_mlops/` | Outils pour deployer et gerer l'IA en production |
-| `11_automation_workflows/` | Automatisation de workflows (comme Zapier, mais avec l'IA) |
-| `12_enterprise_integration/` | Monitoring, securite, gestion des couts pour l'IA |
-| `13_benchmarks_competitions/` | Competitions IA et classements |
-| `14_open_source_llms/` | Modeles IA gratuits que tu peux faire tourner toi-meme |
-| `15_domain_specific/` | IA pour sante, finance, juridique, education, **automatisation metier** |
-| `16_ai_security_safety/` | Outils pour securiser l'IA |
-| `17_multimodal/` | IA qui comprend images, video et documents |
-| `18_ai_infrastructure/` | Materiel et optimisation pour faire tourner l'IA |
-
-### Etape 3 — Clique sur un outil
-
-Chaque fichier `.md` est une fiche complete avec tout ce que tu as besoin de savoir.
-
----
-
-## Methode 3 : Utiliser avec Claude Code (pour developpeurs)
-
-Si tu es developpeur avec [Claude Code](https://claude.ai/code) installe :
-
-```bash
-git clone https://github.com/Tito-42/ARIA.git
-cd ARIA
-claude
-```
-
-Ensuite, demande ce que tu veux en langage naturel. Claude a acces a l'ensemble des 323+ fiches en local et peut chercher, comparer et recommander instantanement.
-
----
-
-# Questions frequentes
-
-### ARIA est-il gratuit ?
-Oui, completement. C'est open source sous licence MIT. Le catalogue, les scripts, tout.
-
-### J'ai besoin de savoir coder ?
-Non. La methode 1 (demander a un chatbot) ne demande aucune competence technique. Tu tapes juste une question en langage normal.
-
-### Quel chatbot IA utiliser ?
-On recommande **Claude** (claude.ai). Apres plusieurs benchmarks, c'est le seul LLM gratuit qui lit reellement l'URL du catalogue, cite les vrais outils avec les scores enterprise, et n'hallucine pas. ChatGPT et Gemini (gratuits) n'arrivent pas a lire l'URL et donnent des reponses generiques.
-
-### ARIA est mis a jour quand ?
-Chaque nuit entre 23h00 et 07h00 (heure de Paris). Les agents IA verifient les nouveaux outils, les changements de versions, et les repos tendance.
-
-### Je peux faire confiance aux informations ?
-Chaque fiche inclut une date de verification, des liens vers la source, et une evaluation honnete des forces ET des limites. On ne cache pas les defauts. Cela dit, les outils IA evoluent vite — verifie toujours la doc officielle avant de prendre une decision critique.
-
-### Et si l'outil que je cherche n'est pas dans le catalogue ?
-Demande au chatbot quand meme ! Il peut trouver quelque chose de proche. Et tu peux ouvrir une issue sur GitHub pour le demander — ou le contribuer toi-meme.
-
----
-
-# Carte de reference rapide
-
-Garde ca sous le coude :
-
-```
-[Ta question]. Lis https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md
-
-Fonctionne avec : Claude, ChatGPT, Gemini, Copilot,
-ou n'importe quel chatbot IA.
 ```
 
 ---

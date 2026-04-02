@@ -14,7 +14,7 @@
 
 <div align="center">
 
-**[English](#why-aria-exists)** | **[Francais](README.fr.md)** | **[Espanol](README.es.md)** | **[Beginner Tutorial / Tutoriel debutant](guides/how-to-use-aria.md)**
+**[English](#why-aria-exists)** | **[Français](README.fr.md)** | **[Español](README.es.md)** | **[Beginner Tutorial](guides/how-to-use-aria.md)**
 
 <br/>
 
