@@ -52,11 +52,11 @@ Pas besoin d'etre technique. Pas besoin d'installer quoi que ce soit. Ouvre [cla
 
 | Ton besoin | Ce que tu ecris |
 |------------|----------------|
-| Mettre en place un chatbot client | *"Je veux creer un chatbot IA pour le support client. Quelles sont les meilleures options open-source ? Lis https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md"* |
-| Choisir une base de donnees pour du RAG | *"Je monte un pipeline RAG. Compare les bases vectorielles. Lis https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md"* |
-| Automatiser le traitement de factures | *"Quels outils IA peuvent automatiser l'extraction de factures ? Lis https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md"* |
-| Trouver un outil de synthese vocale | *"J'ai besoin d'un moteur text-to-speech open-source. Que recommandes-tu ? Lis https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md"* |
-| Automatiser le cold mailing | *"Quels outils open-source peuvent automatiser le cold emailing avec de l'IA ? Lis https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md"* |
+| Mettre en place un chatbot client | Je veux creer un chatbot IA pour le support client. Quelles sont les meilleures options open-source ? Lis https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
+| Choisir une base de donnees pour du RAG | Je monte un pipeline RAG. Compare les bases vectorielles. Lis https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
+| Automatiser le traitement de factures | Quels outils IA peuvent automatiser l'extraction de factures ? Lis https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
+| Trouver un outil de synthese vocale | J'ai besoin d'un moteur text-to-speech open-source. Que recommandes-tu ? Lis https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
+| Automatiser le cold mailing | Quels outils open-source peuvent automatiser le cold emailing avec de l'IA ? Lis https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
 
 **C'est tout.** L'IA lit les fiches structurees, compare les outils, verifie les licences, et te donne une recommandation — avec les scores de maturite, les alternatives, et comment demarrer.
 

@@ -14,7 +14,7 @@
 
 <div align="center">
 
-**[English](#why-aria-exists)** | **[Francais](README.fr.md)** | **[Beginner Tutorial / Tutoriel debutant](guides/how-to-use-aria.md)**
+**[English](#why-aria-exists)** | **[Francais](README.fr.md)** | **[Espanol](README.es.md)** | **[Beginner Tutorial / Tutoriel debutant](guides/how-to-use-aria.md)**
 
 <br/>
 
@@ -64,11 +64,11 @@ The simplest way to use ARIA: open [claude.ai](https://claude.ai) (free) and pas
 
 | What you need | What you ask |
 |---------------|-------------|
-| Build a customer support chatbot | *"I want to build an AI chatbot for customer support. What are the best open-source options? Read https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md"* |
-| Choose a vector database | *"I'm building a RAG pipeline. Compare the vector databases. Read https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md"* |
-| Automate invoice processing | *"What AI tools can automate invoice extraction? Read https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md"* |
-| Find MCP servers for Claude | *"What are the best MCP servers to use with Claude Code? Read https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md"* |
-| Pick a voice AI engine | *"I need open-source text-to-speech. What do you recommend? Read https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md"* |
+| Build a customer support chatbot | I want to build an AI chatbot for customer support. What are the best open-source options? Read https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
+| Choose a vector database | I'm building a RAG pipeline. Compare the vector databases. Read https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
+| Automate invoice processing | What AI tools can automate invoice extraction? Read https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
+| Find MCP servers for Claude | What are the best MCP servers to use with Claude Code? Read https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
+| Pick a voice AI engine | I need open-source text-to-speech. What do you recommend? Read https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
 
 **That's it.** The AI reads the structured entries, compares tools, checks licenses, and gives you a recommendation — with maturity scores, alternatives, and how to get started.
 

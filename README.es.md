@@ -52,11 +52,11 @@ No necesitas ser tecnico. No necesitas instalar nada. Abre [claude.ai](https://c
 
 | Tu necesidad | Lo que escribes |
 |-------------|-----------------|
-| Crear un chatbot para clientes | *"Quiero crear un chatbot de IA para soporte al cliente. Cuales son las mejores opciones open-source? Lee https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md"* |
-| Elegir una base de datos vectorial | *"Estoy montando un pipeline RAG. Compara las bases de datos vectoriales. Lee https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md"* |
-| Automatizar el procesamiento de facturas | *"Que herramientas de IA pueden automatizar la extraccion de facturas? Lee https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md"* |
-| Encontrar un motor de voz | *"Necesito un motor text-to-speech open-source. Que recomiendas? Lee https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md"* |
-| Automatizar el cold mailing | *"Que herramientas open-source pueden automatizar el cold emailing con IA? Lee https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md"* |
+| Crear un chatbot para clientes | Quiero crear un chatbot de IA para soporte al cliente. Cuales son las mejores opciones open-source? Lee https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
+| Elegir una base de datos vectorial | Estoy montando un pipeline RAG. Compara las bases de datos vectoriales. Lee https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
+| Automatizar el procesamiento de facturas | Que herramientas de IA pueden automatizar la extraccion de facturas? Lee https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
+| Encontrar un motor de voz | Necesito un motor text-to-speech open-source. Que recomiendas? Lee https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
+| Automatizar el cold mailing | Que herramientas open-source pueden automatizar el cold emailing con IA? Lee https://tito-42.github.io/ARIA/CATALOG_SUMMARY.md |
 
 **Eso es todo.** La IA lee las fichas estructuradas, compara herramientas, verifica licencias, y te da una recomendacion — con puntuaciones de madurez, alternativas, y como empezar.
 
