@@ -5,7 +5,7 @@
 <br/>
 
 <picture>
-  <img alt="ARIA — Advanced Research in Artificial Intelligence" src="assets/aria-header.svg">
+  <img alt="ARIA — Analyse et Recherche en Intelligence Artificielle" src="assets/aria-header.svg">
 </picture>
 
 <br/>

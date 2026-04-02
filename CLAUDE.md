@@ -1,4 +1,4 @@
-# ARIA - Advanced Research in Artificial Intelligence
+# ARIA - Analyse et Recherche en Intelligence Artificielle
 
 ## Objectif
 Base de connaissances IA exhaustive cataloguant les meilleurs outils, architectures et pratiques (avril 2026).

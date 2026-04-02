@@ -19,7 +19,7 @@
 <br/>
 
 <picture>
-  <img alt="ARIA — Advanced Research in Artificial Intelligence" src="assets/aria-header.svg" width="700">
+  <img alt="ARIA — Analyse et Recherche en Intelligence Artificielle" src="assets/aria-header.svg" width="700">
 </picture>
 
 <br/>

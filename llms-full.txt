@@ -1,4 +1,4 @@
-# ARIA — Advanced Research in Artificial Intelligence
+# ARIA — Analyse et Recherche en Intelligence Artificielle
 # Complete Catalog (llms-full.txt)
 #
 # WHAT IS THIS: A curated catalog of 323+ AI tools across 18 categories.

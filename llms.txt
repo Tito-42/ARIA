@@ -1,4 +1,4 @@
-# ARIA — Advanced Research in Artificial Intelligence
+# ARIA — Analyse et Recherche en Intelligence Artificielle
 
 > ARIA is a curated, open-source catalog of 323+ AI tools organized in 18 categories.
 > Each tool is documented with metadata, enterprise score (1-5 on 6 dimensions),
