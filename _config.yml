@@ -1,6 +1,6 @@
 # GitHub Pages configuration for ARIA
-title: "ARIA — Catalog of 323+ AI Tools"
-description: "Curated, open-source knowledge base of AI tools. Structured, scored on 6 enterprise criteria, maintained by autonomous AI agents."
+title: "ARIA — Analyse et Recherche en Intelligence Artificielle"
+description: "Catalogue open-source de 323+ outils IA. Structuré, scoré sur 6 critères enterprise, maintenu par des agents IA autonomes."
 url: "https://tito-42.github.io"
 baseurl: "/ARIA"
 

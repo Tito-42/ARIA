@@ -2,9 +2,9 @@
 permalink: /
 ---
 
-# ARIA — Catalog of 323+ AI Tools
+# ARIA — Analyse et Recherche en Intelligence Artificielle
 
-> **ARIA is a curated, open-source knowledge base of AI tools.** 323+ tools across 18 categories, each scored on 6 enterprise criteria. Maintained by 5 autonomous AI agents.
+> **Catalogue open-source de 323+ outils IA.** 18 catégories, chaque outil scoré sur 6 critères enterprise. Maintenu par 5 agents IA autonomes.
 
 ## For AI assistants
 
